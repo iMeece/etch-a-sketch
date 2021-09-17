@@ -1,0 +1,81 @@
+body, html, main {
+    height: 100%;
+}
+
+#buttons-container {
+    margin: 25px 0;
+}
+
+#color-erase, #color-red {
+    width: 25px;
+    height: 25px;
+    border: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color:rgb(85, 85, 85)
+}
+
+#color-erase {
+    background-color: white;
+    margin-left: 5px;
+}
+
+#color-red {
+    background-color: #d33333;
+}
+
+#div-container {
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+}
+
+#main-title {
+    font-size: 24px;
+}
+
+#reset-button {
+    width: 60px;
+    height: 30px;
+    border-width: 1px;
+    background-color: rgb(235, 235, 235);
+    border-color: rgb(204, 204, 204);
+    border-radius: 10px;
+    border-style: solid;
+}
+
+#reset-button:active {
+    border-style: solid;
+}
+
+#reset-button:hover, #color-erase:hover, #color-red:hover {
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-justify-center {
+    justify-content: center;
+}
+
+.flex-align-center {
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-justify-space-between {
+    justify-content: space-between;
+}
+
+.width-20em {
+    width: 20em;
+}
